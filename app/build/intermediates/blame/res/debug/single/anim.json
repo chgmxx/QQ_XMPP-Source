@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\anim\\pop_down.xml",
+        "source": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\anim\\pop_down.xml"
+    },
+    {
+        "merged": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\anim\\login_anim.xml",
+        "source": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\anim\\login_anim.xml"
+    },
+    {
+        "merged": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fade_out.xml",
+        "source": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\anim\\fade_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\anim\\activity_up.xml",
+        "source": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\anim\\activity_up.xml"
+    },
+    {
+        "merged": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\anim\\alpha_in.xml",
+        "source": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\anim\\alpha_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\anim\\pop_enter.xml",
+        "source": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\anim\\pop_enter.xml"
+    },
+    {
+        "merged": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\anim\\activity_down.xml",
+        "source": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\anim\\activity_down.xml"
+    },
+    {
+        "merged": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fade_in.xml",
+        "source": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\anim\\fade_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\anim\\pop_up.xml",
+        "source": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\anim\\pop_up.xml"
+    },
+    {
+        "merged": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\anim\\pop_out.xml",
+        "source": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\anim\\pop_out.xml"
+    }
+]

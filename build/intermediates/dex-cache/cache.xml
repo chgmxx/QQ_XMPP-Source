@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="f8364a18bf546d1077336d51cdfef232be3acb2b">
+        <dex dex="C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_41e61b9ed63bf5ceaf11660d25df81e06d9e3268\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="8694693636ab36910c8100ce527c258ff3ebece0">
+        <dex dex="C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-20.0.0_8f912dd22654de61b85b664022fff9768a766fa1\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\libs\afinal_0.5.1_bin.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="ae398c74701392473b9cb488c76a92576d6f548c">
+        <dex dex="C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\build\intermediates\transforms\dex\debug\folders\1000\2\afinal_0.5.1_bin_1700766fa0bf9c5b9c8d06bcab0aeedac879de86\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\libs\gesture-imageview.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="52c959808b11b777248513aa664cd8b2c5e13959">
+        <dex dex="C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\build\intermediates\transforms\dex\debug\folders\1000\2\gesture-imageview_31d9b3e216dfd1da2359a9fa32ea6d8621f25524\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\libs\universal-image-loader-1.9.2-SNAPSHOT-with-sources.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="3526df34297bab9b9cc33d93d6e68f60fc2f94ea">
+        <dex dex="C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\build\intermediates\transforms\dex\debug\folders\1000\2\universal-image-loader-1.9.2-SNAPSHOT-with-sources_3ec138845535165bca7ac72982def1d9f03bb035\classes.dex" />
+    </item>
+    <item
+        jar="C:\SDK\extras\android\m2repository\com\android\support\support-annotations\20.0.0\support-annotations-20.0.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa">
+        <dex dex="C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-20.0.0_27459a1c026e9952fdc33ffbe77708a22fb7b74f\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\jars\libs\internal_impl-20.0.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d">
+        <dex dex="C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-20.0.0_55b58ab78402af3dc74d2c78aa2aeb4e48f66141\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="409a74ccd3d48c006929c58e9c7972fa1708fe76">
+        <dex dex="C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_147b84e72308ed58333ffb43d5721a1ec3eab2b0\classes.dex" />
+    </item>
+
+</items>

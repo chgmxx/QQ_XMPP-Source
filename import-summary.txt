@@ -1,0 +1,480 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .gradle\
+* .gradle\2.4\
+* .gradle\2.4\taskArtifacts\
+* .gradle\2.4\taskArtifacts\cache.properties
+* .gradle\2.4\taskArtifacts\cache.properties.lock
+* .gradle\2.4\taskArtifacts\fileHashes.bin
+* .gradle\2.4\taskArtifacts\fileSnapshots.bin
+* .gradle\2.4\taskArtifacts\outputFileStates.bin
+* .gradle\2.4\taskArtifacts\taskArtifacts.bin
+* .idea\
+* .idea\.name
+* .idea\compiler.xml
+* .idea\copyright\
+* .idea\copyright\profiles_settings.xml
+* .idea\encodings.xml
+* .idea\gradle.xml
+* .idea\libraries\
+* .idea\libraries\afinal_0_5_1_bin.xml
+* .idea\libraries\android_support_v4.xml
+* .idea\libraries\asmack.xml
+* .idea\libraries\gesture_imageview.xml
+* .idea\libraries\universal_image_loader_1_9_2_SNAPSHOT_with_sources.xml
+* .idea\misc.xml
+* .idea\modules.xml
+* .idea\runConfigurations.xml
+* .idea\vcs.xml
+* .idea\workspace.xml
+* QQ.iml
+* build.gradle
+* build.gradle.bak
+* build\
+* build\generated\
+* build\generated\source\
+* build\generated\source\buildConfig\
+* build\generated\source\buildConfig\debug\
+* build\generated\source\buildConfig\debug\com\
+* build\generated\source\buildConfig\debug\com\qq\
+* build\generated\source\buildConfig\debug\com\qq\BuildConfig.java
+* build\intermediates\
+* build\intermediates\assets\
+* build\intermediates\assets\debug\
+* build\intermediates\assets\debug\g\
+* build\intermediates\assets\debug\g\000.gif
+* build\intermediates\assets\debug\g\001.gif
+* build\intermediates\assets\debug\g\002.gif
+* build\intermediates\assets\debug\g\003.gif
+* build\intermediates\assets\debug\g\004.gif
+* build\intermediates\assets\debug\g\005.gif
+* build\intermediates\assets\debug\g\006.gif
+* build\intermediates\assets\debug\g\009.gif
+* build\intermediates\assets\debug\g\010.gif
+* build\intermediates\assets\debug\g\011.gif
+* build\intermediates\assets\debug\g\012.gif
+* build\intermediates\assets\debug\g\013.gif
+* build\intermediates\assets\debug\g\014.gif
+* build\intermediates\assets\debug\g\015.gif
+* build\intermediates\assets\debug\g\017.gif
+* build\intermediates\assets\debug\g\018.gif
+* build\intermediates\assets\debug\g\019.gif
+* build\intermediates\assets\debug\g\020.gif
+* build\intermediates\assets\debug\g\021.gif
+* build\intermediates\assets\debug\g\022.gif
+* build\intermediates\assets\debug\g\023.gif
+* build\intermediates\assets\debug\g\024.gif
+* build\intermediates\assets\debug\g\025.gif
+* build\intermediates\assets\debug\g\026.gif
+* build\intermediates\assets\debug\g\027.gif
+* build\intermediates\assets\debug\g\029.gif
+* build\intermediates\assets\debug\g\030.gif
+* build\intermediates\assets\debug\g\031.gif
+* build\intermediates\assets\debug\g\033.gif
+* build\intermediates\assets\debug\g\034.gif
+* build\intermediates\assets\debug\g\035.gif
+* build\intermediates\assets\debug\g\036.gif
+* build\intermediates\assets\debug\g\037.gif
+* build\intermediates\assets\debug\g\038.gif
+* build\intermediates\assets\debug\g\040.gif
+* build\intermediates\assets\debug\g\041.gif
+* build\intermediates\assets\debug\g\042.gif
+* build\intermediates\assets\debug\g\043.gif
+* build\intermediates\assets\debug\g\044.gif
+* build\intermediates\assets\debug\g\045.gif
+* build\intermediates\assets\debug\g\046.gif
+* build\intermediates\assets\debug\g\048.gif
+* build\intermediates\assets\debug\g\049.gif
+* build\intermediates\assets\debug\g\050.gif
+* build\intermediates\assets\debug\g\051.gif
+* build\intermediates\assets\debug\g\052.gif
+* build\intermediates\assets\debug\g\053.gif
+* build\intermediates\assets\debug\g\054.gif
+* build\intermediates\assets\debug\g\055.gif
+* build\intermediates\assets\debug\g\056.gif
+* build\intermediates\assets\debug\g\059.gif
+* build\intermediates\assets\debug\g\061.gif
+* build\intermediates\assets\debug\g\062.gif
+* build\intermediates\assets\debug\g\063.gif
+* build\intermediates\assets\debug\g\065.gif
+* build\intermediates\assets\debug\g\066.gif
+* build\intermediates\assets\debug\g\070.gif
+* build\intermediates\assets\debug\g\072.gif
+* build\intermediates\assets\debug\g\073.gif
+* build\intermediates\assets\debug\g\074.gif
+* build\intermediates\assets\debug\g\077.gif
+* build\intermediates\assets\debug\g\079.gif
+* build\intermediates\assets\debug\g\081.gif
+* build\intermediates\assets\debug\g\082.gif
+* build\intermediates\assets\debug\g\083.gif
+* build\intermediates\assets\debug\g\084.gif
+* build\intermediates\assets\debug\g\085.gif
+* build\intermediates\assets\debug\g\086.gif
+* build\intermediates\assets\debug\g\087.gif
+* build\intermediates\assets\debug\g\088.gif
+* build\intermediates\assets\debug\g\089.gif
+* build\intermediates\assets\debug\g\090.gif
+* build\intermediates\assets\debug\g\091.gif
+* build\intermediates\assets\debug\g\092.gif
+* build\intermediates\assets\debug\g\093.gif
+* build\intermediates\assets\debug\g\094.gif
+* build\intermediates\assets\debug\g\095.gif
+* build\intermediates\assets\debug\g\096.gif
+* build\intermediates\assets\debug\g\097.gif
+* build\intermediates\assets\debug\g\098.gif
+* build\intermediates\assets\debug\g\099.gif
+* build\intermediates\assets\debug\g\100.gif
+* build\intermediates\assets\debug\g\101.gif
+* build\intermediates\assets\debug\g\102.gif
+* build\intermediates\assets\debug\g\103.gif
+* build\intermediates\assets\debug\g\104.gif
+* build\intermediates\assets\debug\g\105.gif
+* build\intermediates\assets\debug\g\106.gif
+* build\intermediates\assets\debug\p\
+* build\intermediates\assets\debug\p\_000.png
+* build\intermediates\assets\debug\p\_001.png
+* build\intermediates\assets\debug\p\_002.png
+* build\intermediates\assets\debug\p\_003.png
+* build\intermediates\assets\debug\p\_004.png
+* build\intermediates\assets\debug\p\_005.png
+* build\intermediates\assets\debug\p\_006.png
+* build\intermediates\assets\debug\p\_007.png
+* build\intermediates\assets\debug\p\_008.png
+* build\intermediates\assets\debug\p\_009.png
+* build\intermediates\assets\debug\p\_010.png
+* build\intermediates\assets\debug\p\_011.png
+* build\intermediates\assets\debug\p\_012.png
+* build\intermediates\assets\debug\p\_013.png
+* build\intermediates\assets\debug\p\_014.png
+* build\intermediates\assets\debug\p\_015.png
+* build\intermediates\assets\debug\p\_016.png
+* build\intermediates\assets\debug\p\_017.png
+* build\intermediates\assets\debug\p\_018.png
+* build\intermediates\assets\debug\p\_019.png
+* build\intermediates\assets\debug\p\_020.png
+* build\intermediates\assets\debug\p\_021.png
+* build\intermediates\assets\debug\p\_022.png
+* build\intermediates\assets\debug\p\_023.png
+* build\intermediates\assets\debug\p\_024.png
+* build\intermediates\assets\debug\p\_025.png
+* build\intermediates\assets\debug\p\_026.png
+* build\intermediates\assets\debug\p\_027.png
+* build\intermediates\assets\debug\p\_028.png
+* build\intermediates\assets\debug\p\_029.png
+* build\intermediates\assets\debug\p\_030.png
+* build\intermediates\assets\debug\p\_031.png
+* build\intermediates\assets\debug\p\_032.png
+* build\intermediates\assets\debug\p\_033.png
+* build\intermediates\assets\debug\p\_034.png
+* build\intermediates\assets\debug\p\_035.png
+* build\intermediates\assets\debug\p\_036.png
+* build\intermediates\assets\debug\p\_037.png
+* build\intermediates\assets\debug\p\_038.png
+* build\intermediates\assets\debug\p\_039.png
+* build\intermediates\assets\debug\p\_040.png
+* build\intermediates\assets\debug\p\_041.png
+* build\intermediates\assets\debug\p\_042.png
+* build\intermediates\assets\debug\p\_043.png
+* build\intermediates\assets\debug\p\_044.png
+* build\intermediates\assets\debug\p\_045.png
+* build\intermediates\assets\debug\p\_046.png
+* build\intermediates\assets\debug\p\_047.png
+* build\intermediates\assets\debug\p\_048.png
+* build\intermediates\assets\debug\p\_049.png
+* build\intermediates\assets\debug\p\_050.png
+* build\intermediates\assets\debug\p\_051.png
+* build\intermediates\assets\debug\p\_052.png
+* build\intermediates\assets\debug\p\_053.png
+* build\intermediates\assets\debug\p\_054.png
+* build\intermediates\assets\debug\p\_055.png
+* build\intermediates\assets\debug\p\_056.png
+* build\intermediates\assets\debug\p\_057.png
+* build\intermediates\assets\debug\p\_058.png
+* build\intermediates\assets\debug\p\_059.png
+* build\intermediates\assets\debug\p\_060.png
+* build\intermediates\assets\debug\p\_061.png
+* build\intermediates\assets\debug\p\_062.png
+* build\intermediates\assets\debug\p\_063.png
+* build\intermediates\assets\debug\p\_064.png
+* build\intermediates\assets\debug\p\_065.png
+* build\intermediates\assets\debug\p\_066.png
+* build\intermediates\assets\debug\p\_067.png
+* build\intermediates\assets\debug\p\_068.png
+* build\intermediates\assets\debug\p\_069.png
+* build\intermediates\assets\debug\p\_070.png
+* build\intermediates\assets\debug\p\_071.png
+* build\intermediates\assets\debug\p\_072.png
+* build\intermediates\assets\debug\p\_073.png
+* build\intermediates\assets\debug\p\_074.png
+* build\intermediates\assets\debug\p\_075.png
+* build\intermediates\assets\debug\p\_076.png
+* build\intermediates\assets\debug\p\_077.png
+* build\intermediates\assets\debug\p\_078.png
+* build\intermediates\assets\debug\p\_079.png
+* build\intermediates\assets\debug\p\_080.png
+* build\intermediates\assets\debug\p\_081.png
+* build\intermediates\assets\debug\p\_082.png
+* build\intermediates\assets\debug\p\_083.png
+* build\intermediates\assets\debug\p\_084.png
+* build\intermediates\assets\debug\p\_085.png
+* build\intermediates\assets\debug\p\_086.png
+* build\intermediates\assets\debug\p\_087.png
+* build\intermediates\assets\debug\p\_088.png
+* build\intermediates\assets\debug\p\_089.png
+* build\intermediates\assets\debug\p\_090.png
+* build\intermediates\assets\debug\p\_091.png
+* build\intermediates\assets\debug\p\_092.png
+* build\intermediates\assets\debug\p\_093.png
+* build\intermediates\assets\debug\p\_094.png
+* build\intermediates\assets\debug\p\_095.png
+* build\intermediates\assets\debug\p\_096.png
+* build\intermediates\assets\debug\p\_097.png
+* build\intermediates\assets\debug\p\_098.png
+* build\intermediates\assets\debug\p\_099.png
+* build\intermediates\assets\debug\p\_100.png
+* build\intermediates\assets\debug\p\_101.png
+* build\intermediates\assets\debug\p\_102.png
+* build\intermediates\assets\debug\p\_103.png
+* build\intermediates\assets\debug\p\_104.png
+* build\intermediates\assets\debug\p\_105.png
+* build\intermediates\assets\debug\p\_106.png
+* build\intermediates\assets\debug\p\_107.png
+* build\intermediates\assets\debug\p\_108.png
+* build\intermediates\assets\debug\p\_109.png
+* build\intermediates\assets\debug\p\_110.png
+* build\intermediates\assets\debug\p\_111.png
+* build\intermediates\assets\debug\p\_112.png
+* build\intermediates\assets\debug\p\_113.png
+* build\intermediates\assets\debug\p\_114.png
+* build\intermediates\assets\debug\p\_115.png
+* build\intermediates\assets\debug\p\_116.png
+* build\intermediates\assets\debug\p\_117.png
+* build\intermediates\assets\debug\p\_118.png
+* build\intermediates\assets\debug\p\_119.png
+* build\intermediates\assets\debug\p\_120.png
+* build\intermediates\assets\debug\p\_121.png
+* build\intermediates\assets\debug\p\_122.png
+* build\intermediates\assets\debug\p\_123.png
+* build\intermediates\assets\debug\p\_124.png
+* build\intermediates\assets\debug\p\_125.png
+* build\intermediates\assets\debug\p\_126.png
+* build\intermediates\assets\debug\p\_127.png
+* build\intermediates\assets\debug\p\_128.png
+* build\intermediates\assets\debug\p\_129.png
+* build\intermediates\assets\debug\p\_130.png
+* build\intermediates\assets\debug\p\_131.png
+* build\intermediates\assets\debug\p\_132.png
+* build\intermediates\assets\debug\p\_133.png
+* build\intermediates\assets\debug\p\_134.png
+* build\intermediates\assets\debug\p\_135.png
+* build\intermediates\assets\debug\p\_136.png
+* build\intermediates\assets\debug\p\_137.png
+* build\intermediates\assets\debug\p\_138.png
+* build\intermediates\assets\debug\p\_139.png
+* build\intermediates\assets\debug\p\_140.png
+* build\intermediates\assets\debug\p\_141.png
+* build\intermediates\assets\debug\p\_142.png
+* build\intermediates\assets\debug\p\_del.png
+* build\intermediates\incremental\
+* build\intermediates\incremental\aidl\
+* build\intermediates\incremental\aidl\debug\
+* build\intermediates\incremental\aidl\debug\dependency.store
+* build\intermediates\incremental\mergeAssets\
+* build\intermediates\incremental\mergeAssets\debug\
+* build\intermediates\incremental\mergeAssets\debug\merger.xml
+* build\intermediates\res\
+* build\intermediates\res\merged\
+* build\intermediates\res\merged\debug\
+* build\intermediates\res\merged\debug\anim\
+* build\intermediates\res\merged\debug\anim\activity_down.xml
+* build\intermediates\res\merged\debug\anim\activity_up.xml
+* build\intermediates\res\merged\debug\anim\alpha_in.xml
+* build\intermediates\res\merged\debug\anim\fade_in.xml
+* build\intermediates\res\merged\debug\anim\fade_out.xml
+* build\intermediates\res\merged\debug\anim\login_anim.xml
+* build\intermediates\res\merged\debug\anim\pop_down.xml
+* build\intermediates\res\merged\debug\anim\pop_enter.xml
+* build\intermediates\res\merged\debug\anim\pop_out.xml
+* build\intermediates\res\merged\debug\anim\pop_up.xml
+* build\intermediates\res\merged\debug\drawable\
+* build\intermediates\res\merged\debug\drawable\bar_constact.xml
+* build\intermediates\res\merged\debug\drawable\bar_deynaimic.xml
+* build\intermediates\res\merged\debug\drawable\bar_news.xml
+* build\intermediates\res\merged\debug\drawable\bar_setting.xml
+* build\intermediates\res\merged\debug\drawable\btn_bottom_last.xml
+* build\intermediates\res\merged\debug\drawable\btn_chat_add_camera_selector.xml
+* build\intermediates\res\merged\debug\drawable\btn_chat_add_location_selector.xml
+* build\intermediates\res\merged\debug\drawable\btn_chat_add_picture_selector.xml
+* build\intermediates\res\merged\debug\drawable\btn_chat_add_selector.xml
+* build\intermediates\res\merged\debug\drawable\btn_chat_emo_selector.xml
+* build\intermediates\res\merged\debug\drawable\btn_login_nor.xml
+* build\intermediates\res\merged\debug\drawable\btn_login_pressed.xml
+* build\intermediates\res\merged\debug\drawable\btn_login_selector.xml
+* build\intermediates\res\merged\debug\drawable\buttom_bar_font.xml
+* build\intermediates\res\merged\debug\drawable\chatfrom_bg.xml
+* build\intermediates\res\merged\debug\drawable\chatto_bg.xml
+* build\intermediates\res\merged\debug\drawable\checkbox.xml
+* build\intermediates\res\merged\debug\drawable\circle_shape.xml
+* build\intermediates\res\merged\debug\drawable\dialog_btn_left_selector.xml
+* build\intermediates\res\merged\debug\drawable\dialog_btn_right_selector.xml
+* build\intermediates\res\merged\debug\drawable\dot_focused.xml
+* build\intermediates\res\merged\debug\drawable\dot_normal.xml
+* build\intermediates\res\merged\debug\drawable\dots.xml
+* build\intermediates\res\merged\debug\drawable\img_back_selector.xml
+* build\intermediates\res\merged\debug\drawable\list_group_item_background.xml
+* build\intermediates\res\merged\debug\drawable\list_item_selector.xml
+* build\intermediates\res\merged\debug\drawable\ll_bg.xml
+* build\intermediates\res\merged\debug\drawable\ll_bg_d.xml
+* build\intermediates\res\merged\debug\drawable\ll_top_bg.xml
+* build\intermediates\res\merged\debug\drawable\loading.xml
+* build\intermediates\res\merged\debug\drawable\login_btn.xml
+* build\intermediates\res\merged\debug\drawable\login_et_bg.xml
+* build\intermediates\res\merged\debug\drawable\login_picture_bg.xml
+* build\intermediates\res\merged\debug\drawable\pop_bg.xml
+* build\intermediates\res\merged\debug\drawable\progress_bg.xml
+* build\intermediates\res\merged\debug\drawable\progressbar_bg.xml
+* build\intermediates\res\merged\debug\drawable\qq_constact.xml
+* build\intermediates\res\merged\debug\drawable\qq_constact_all.xml
+* build\intermediates\res\merged\debug\drawable\qq_constact_font.xml
+* build\intermediates\res\merged\debug\drawable\qq_constact_group.xml
+* build\intermediates\res\merged\debug\drawable\refresh_progress.xml
+* build\intermediates\res\merged\debug\drawable\register_phone_bg.xml
+* build\intermediates\res\merged\debug\drawable\register_user_btn.xml
+* build\intermediates\res\merged\debug\drawable\sacn_pic.xml
+* build\intermediates\res\merged\debug\drawable\scan_ercode.xml
+* build\intermediates\res\merged\debug\drawable\scan_light.xml
+* build\intermediates\res\merged\debug\drawable\setting_down_nor.xml
+* build\intermediates\res\merged\debug\drawable\setting_down_pressed.xml
+* build\intermediates\res\merged\debug\drawable\setting_down_selector.xml
+* build\intermediates\res\merged\debug\drawable\setting_middle_nor.xml
+* build\intermediates\res\merged\debug\drawable\setting_middle_pressed.xml
+* build\intermediates\res\merged\debug\drawable\setting_middle_selector.xml
+* build\intermediates\res\merged\debug\drawable\setting_one_nor.xml
+* build\intermediates\res\merged\debug\drawable\setting_one_pressed.xml
+* build\intermediates\res\merged\debug\drawable\setting_one_selector.xml
+* build\intermediates\res\merged\debug\drawable\setting_up_nor.xml
+* build\intermediates\res\merged\debug\drawable\setting_up_pressed.xml
+* build\intermediates\res\merged\debug\drawable\setting_up_selector.xml
+* build\intermediates\res\merged\debug\drawable\sidebar_background.xml
+* build\intermediates\res\merged\debug\layout\
+* build\intermediates\res\merged\debug\layout\activity_custom_loding_dialog_layout.xml
+* build\intermediates\res\merged\debug\layout\activity_img_page.xml
+* build\intermediates\res\merged\debug\layout\activity_login.xml
+* build\intermediates\res\merged\debug\layout\activity_main.xml
+* build\intermediates\res\merged\debug\layout\activity_qq_constact.xml
+* build\intermediates\res\merged\debug\layout\activity_register_phone.xml
+* build\intermediates\res\merged\debug\layout\activity_register_result.xml
+* build\intermediates\res\merged\debug\layout\activity_register_userinfo.xml
+* build\intermediates\res\merged\debug\layout\activity_search.xml
+* build\intermediates\res\merged\debug\layout\activity_setting_msg_alert.xml
+* build\intermediates\res\merged\debug\layout\activity_setting_msg_histroy.xml
+* build\intermediates\res\merged\debug\layout\activity_sign.xml
+* build\intermediates\res\merged\debug\layout\activity_welcome.xml
+* build\intermediates\res\merged\debug\layout\app_exit.xml
+* build\intermediates\res\merged\debug\layout\chat_add_container.xml
+* build\intermediates\res\merged\debug\layout\chat_face_container.xml
+* build\intermediates\res\merged\debug\layout\chat_lv_item.xml
+* build\intermediates\res\merged\debug\layout\common_loading_view.xml
+* build\intermediates\res\merged\debug\layout\common_search_l.xml
+* build\intermediates\res\merged\debug\layout\common_search_x.xml
+* build\intermediates\res\merged\debug\layout\common_search_xl.xml
+* build\intermediates\res\merged\debug\layout\common_search_xxl.xml
+* build\intermediates\res\merged\debug\layout\common_title_bar.xml
+* build\intermediates\res\merged\debug\layout\common_url_textview.xml
+* build\intermediates\res\merged\debug\layout\dialog_scan.xml
+* build\intermediates\res\merged\debug\layout\dot_image.xml
+* build\intermediates\res\merged\debug\layout\dropdown_lv_head.xml
+* build\intermediates\res\merged\debug\layout\face_gridview.xml
+* build\intermediates\res\merged\debug\layout\face_image.xml
+* build\intermediates\res\merged\debug\layout\fragment_constact.xml
+* build\intermediates\res\merged\debug\layout\fragment_constact_child.xml
+* build\intermediates\res\merged\debug\layout\fragment_constact_father.xml
+* build\intermediates\res\merged\debug\layout\fragment_constact_group.xml
+* build\intermediates\res\merged\debug\layout\fragment_constact_head_view.xml
+* build\intermediates\res\merged\debug\layout\fragment_dynamic.xml
+* build\intermediates\res\merged\debug\layout\fragment_mine.xml
+* build\intermediates\res\merged\debug\layout\fragment_news.xml
+* build\intermediates\res\merged\debug\layout\fragment_news_call.xml
+* build\intermediates\res\merged\debug\layout\fragment_news_camera.xml
+* build\intermediates\res\merged\debug\layout\fragment_news_code_scan.xml
+* build\intermediates\res\merged\debug\layout\fragment_news_father.xml
+* build\intermediates\res\merged\debug\layout\fragment_news_item.xml
+* build\intermediates\res\merged\debug\layout\fragment_news_pop.xml
+* build\intermediates\res\merged\debug\layout\fragment_news_qq_item.xml
+* build\intermediates\res\merged\debug\layout\fragment_news_waterphoto_save.xml
+* build\intermediates\res\merged\debug\layout\fragment_phone_constact.xml
+* build\intermediates\res\merged\debug\layout\fragment_phone_constacts_item.xml
+* build\intermediates\res\merged\debug\layout\fragment_qq_constact.xml
+* build\intermediates\res\merged\debug\layout\fragment_qq_friend.xml
+* build\intermediates\res\merged\debug\layout\main_chat.xml
+* build\intermediates\res\merged\debug\layout\pc_connect_wifi.xml
+* build\intermediates\res\merged\debug\layout\pop_edit.xml
+* build\intermediates\res\merged\debug\layout\pop_loginout.xml
+* build\intermediates\res\merged\debug\layout\refresh_footer.xml
+* build\intermediates\res\merged\debug\layout\refresh_head.xml
+* build\intermediates\res\merged\debug\layout\water_camera_page1.xml
+* build\intermediates\res\merged\debug\layout\water_camera_page2.xml
+* build\intermediates\res\merged\debug\layout\water_camera_page3.xml
+* build\intermediates\res\merged\debug\layout\water_camera_page4.xml
+* build\intermediates\res\merged\debug\layout\water_camera_page5.xml
+* build\intermediates\res\merged\debug\raw\
+* build\intermediates\res\merged\debug\raw\beep.ogg
+* build\intermediates\res\merged\debug\values\
+* build\intermediates\res\merged\debug\values\values.xml
+* gradle\
+* gradle\wrapper\
+* gradle\wrapper\gradle-wrapper.jar
+* gradle\wrapper\gradle-wrapper.properties
+* gradlew
+* gradlew.bat
+* ic_launcher-web.png
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:20.0.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets\
+* libs\afinal_0.5.1_bin.jar => app\libs\afinal_0.5.1_bin.jar
+* libs\asmack.jar => app\libs\asmack.jar
+* libs\gesture-imageview.jar => app\libs\gesture-imageview.jar
+* libs\universal-image-loader-1.9.2-SNAPSHOT-with-sources.jar => app\libs\universal-image-loader-1.9.2-SNAPSHOT-with-sources.jar
+* lint.xml => app\lint.xml
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
