@@ -1,0 +1,3 @@
+CHANGED,C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\build\intermediates\transforms\instantRun\debug\folders\1\5\main\com\im\listener\MsgListener.class
+CHANGED,C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\build\intermediates\transforms\instantRun\debug\folders\1\5\main\com\im\activity\ChatActivity$5.class
+CHANGED,C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\build\intermediates\transforms\instantRun\debug\folders\1\5\main\com\im\util\XmppUtil.class

@@ -126,7 +126,7 @@ public class ChatActivity extends Activity implements OnClickListener,OnRefreshL
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.main_chat);
 
-		I=PreferencesUtils.getSharePreStr(this, "username");
+		I = PreferencesUtils.getSharePreStr(this, "username");
 		YOU = getIntent().getStringExtra("from");
 
         //StrI = getIntent().getStringExtra("strTo");
@@ -364,7 +364,7 @@ public class ChatActivity extends Activity implements OnClickListener,OnRefreshL
 			@Override
 			public void run() {
 				try {
-					XmppUtil.sendMessage(QQApplication.xmppConnection, message, YOU);
+					XmppUtil.sendMessage(QQApplication.xmppConnection, message, YOU, I);
 				} catch (XMPPException e) {
 					e.printStackTrace();
 					Looper.prepare();
@@ -393,7 +393,7 @@ public class ChatActivity extends Activity implements OnClickListener,OnRefreshL
 			@Override
 			public void run() {
 				try {
-					XmppUtil.sendMessage(QQApplication.xmppConnection, message, YOU);
+					XmppUtil.sendMessage(QQApplication.xmppConnection, message, YOU, I);
 				} catch (XMPPException e) {
 					e.printStackTrace();
 					Looper.prepare();

@@ -356,19 +356,30 @@ public class XmppUtil {
 		ChatManager chatmanager = mXMPPConnection.getChatManager();
 		Chat chat =chatmanager.createChat(touser + "@xmpp.test", null);
 		if (chat != null) {
-			Log.e("TAG", content);
-			Message message = new Message();
-			//message.setFrom();
-			message.setTo(touser);
-			message.setBody(content);
-            message.setThread(chat.getThreadID());
-			message.setSubType(Const.MSG_SUBTYPE_TEXT);
-			message.setType(Message.Type.chat);
-			Log.d("message", message.toXML());
 			chat.sendMessage(content);
 		}
 	}
-	
+
+    public static void sendMessage(XMPPConnection mXMPPConnection,String content,String touser, String fromUser) throws XMPPException {
+		Log.e("message", "谈笑风生");
+        if(mXMPPConnection==null||!mXMPPConnection.isConnected()){
+            throw new XMPPException();
+        }
+        ChatManager chatmanager = mXMPPConnection.getChatManager();
+        Chat chat =chatmanager.createChat(touser + "@xmpp.test", null);
+        if (chat != null) {
+            Message message = new Message();
+            message.setFrom(fromUser + "@xmpp.test");
+            message.setTo(touser + "@xmpp.text");
+            message.setBody(content);
+            message.setThread(chat.getThreadID());
+            message.setSubType(Const.MSG_SUBTYPE_TEXT);
+            message.setType(Message.Type.chat);
+            Log.e("message", message.toXML());
+            chat.sendMessage(message);
+        }
+    }
+
 	public static void setOnlineStatus(ImageView iv_stutas,int code,TextView tv_stutas,String[] items ){
 		switch (code) {
 		case 0://在线
