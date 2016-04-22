@@ -106,14 +106,14 @@ public class ChatActivity extends Activity implements OnClickListener,OnRefreshL
 	private LayoutInflater inflater;
 	private int offset;
 	private String I,YOU;//为了好区分，I就是自己，YOU就是对方
-	
+	private String StrI, StrYou;
+
 	@SuppressLint("HandlerLeak")
 	private Handler mHandler = new Handler() {
 		@Override
 		public void handleMessage(Message msg) {
 			switch (msg.what) {
 			case 1:
-				Log.e("handler", "handler");
 				mLvAdapter.notifyDataSetChanged();
 				break;
 			}
@@ -127,10 +127,14 @@ public class ChatActivity extends Activity implements OnClickListener,OnRefreshL
 		setContentView(R.layout.main_chat);
 
 		I=PreferencesUtils.getSharePreStr(this, "username");
-		YOU=getIntent().getStringExtra("from");
+		YOU = getIntent().getStringExtra("from");
+
+        //StrI = getIntent().getStringExtra("strTo");
+        //StrYou = getIntent().getStringExtra("strFrom");
 
 		inflater = (LayoutInflater) getSystemService(LAYOUT_INFLATER_SERVICE);
 		tv_title=(TextView) findViewById(R.id.tv_title);
+
 		tv_title.setText(YOU);
 
 		sd=new SimpleDateFormat("MM-dd HH:mm");
@@ -237,7 +241,6 @@ public class ChatActivity extends Activity implements OnClickListener,OnRefreshL
 		offset=0;
 		listMsg=msgDao.queryMsg(YOU,I,offset);
 		offset=listMsg.size();
-        //Log.e("offset", offset + "");
         mLvAdapter = new ChatAdapter(this, listMsg);
 		mListView.setAdapter(mLvAdapter);
 		mListView.setSelection(listMsg.size());
@@ -342,7 +345,6 @@ public class ChatActivity extends Activity implements OnClickListener,OnRefreshL
 	protected void onActivityResult(int requestCode, int resultCode, Intent data) {
 		if(resultCode == RESULT_OK) {
 			Uri uri = data.getData();
-			Log.e("uri", uri.toString());
             sendMsgImg(uri.toString());
 		}
 	}
@@ -387,7 +389,6 @@ public class ChatActivity extends Activity implements OnClickListener,OnRefreshL
 		input.setText("");
 		//final String message=YOU+Const.SPLIT+I+Const.SPLIT+Const.MSG_TYPE_TEXT+Const.SPLIT+content+Const.SPLIT+sd.format(new Date());
 	    final String message = content;
-        //Log.d("m", message);
         new Thread(new Runnable() {
 			@Override
 			public void run() {
@@ -581,7 +582,7 @@ public class ChatActivity extends Activity implements OnClickListener,OnRefreshL
 	}
 	
 	/**
-	 * 接收消息记录操作广播：删除复制
+	 * 接收消息记录操作广播：
 	 * @author baiyuliang
 	 */
 	private class NewMsgReciver extends BroadcastReceiver {
@@ -591,7 +592,6 @@ public class ChatActivity extends Activity implements OnClickListener,OnRefreshL
 			Msg msg=(Msg) b.getSerializable("msg");//用来区分不同的bundle
 			listMsg.add(msg);
 			offset=listMsg.size();
-			Log.d("offset", offset + "");
 			mLvAdapter.notifyDataSetChanged();
 		}
 	}

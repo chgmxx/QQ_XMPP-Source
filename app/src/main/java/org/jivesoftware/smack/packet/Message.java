@@ -453,7 +453,7 @@ public class Message extends Packet {
         Body defaultBody = getMessageBody(null);
         if (defaultBody != null) {
             if(subType != null) {
-                buf.append("<body subtype=\"").append(StringUtils.escapeForXML(getSubType())).append(StringUtils.escapeForXML(defaultBody.message)).append("\"</body>");
+                buf.append("<body subtype=\"").append(StringUtils.escapeForXML(getSubType())).append("\">").append(StringUtils.escapeForXML(defaultBody.message)).append("</body>");
             }
             else {
                 buf.append("<body>").append(StringUtils.escapeForXML(defaultBody.message)).append("</body>");

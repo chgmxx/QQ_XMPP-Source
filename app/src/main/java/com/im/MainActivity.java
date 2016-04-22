@@ -195,7 +195,6 @@ public class MainActivity extends FragmentActivity implements OnClickListener{
 		@Override
 		public void onReceive(Context context, Intent intent) {
 			initMsgCount();
-			//Log.e("onreceive", "触发了新消息");
 		}
 	}
 	

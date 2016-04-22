@@ -4,29 +4,26 @@
     api-level="22"
     density="xhdpi"
     format="7"
-    timestamp="17633174632576" >
+    timestamp="3418916386955" >
 
     <task
         name="javac"
-        duration="6386" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="7238" />
+        duration="0" />
     <task
         name="verifier"
-        duration="6105" />
+        duration="0" />
 
-    <artifact
-        location="C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\build\outputs\apk\app-debug.apk"
-        type="MAIN" />
-
-    <build timestamp="17633174632576" >
+    <build timestamp="2876608698698" >
         <artifact
             location="C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
     </build>
+    <build timestamp="3418916386955" />
 
 </instant-run>

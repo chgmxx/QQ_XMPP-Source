@@ -358,17 +358,13 @@ public class XmppUtil {
 		if (chat != null) {
 			Log.e("TAG", content);
 			Message message = new Message();
-			message.setFrom();
+			//message.setFrom();
 			message.setTo(touser);
 			message.setBody(content);
             message.setThread(chat.getThreadID());
 			message.setSubType(Const.MSG_SUBTYPE_TEXT);
-            //message.setSubject("谈笑风生");
-			//message.addBody("subtype", "text");
-
-			//message.setType(Type a);
-
-			//Log.d("message", message.toXML());
+			message.setType(Message.Type.chat);
+			Log.d("message", message.toXML());
 			chat.sendMessage(content);
 		}
 	}
