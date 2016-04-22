@@ -54,6 +54,7 @@ public class Message extends Packet {
     private String thread = null;
     private String language;
     private String subType;
+    private String time;
 
     private final Set<Subject> subjects = new HashSet<Subject>();
     private final Set<Body> bodies = new HashSet<Body>();
@@ -371,10 +372,13 @@ public class Message extends Packet {
         this.subType = subType;
     }
 
+    public void setTime(String time) {this.time = time;}
+
     public String getSubType() {
         return subType;
     }
 
+    public String getTime() {return time;};
     /**
      * Returns the xml:lang of this Message.
      *
@@ -452,8 +456,8 @@ public class Message extends Packet {
         // Add the body in the default language
         Body defaultBody = getMessageBody(null);
         if (defaultBody != null) {
-            if(subType != null) {
-                buf.append("<body subtype=\"").append(StringUtils.escapeForXML(getSubType())).append("\">").append(StringUtils.escapeForXML(defaultBody.message)).append("</body>");
+            if(subType != null && time != null) {
+                buf.append("<body subtype=\"").append(StringUtils.escapeForXML(getSubType())).append("\" ").append("time=\"").append(StringUtils.escapeForXML(getTime())).append("\">").append(StringUtils.escapeForXML(defaultBody.message)).append("</body>");
             }
             else {
                 buf.append("<body>").append(StringUtils.escapeForXML(defaultBody.message)).append("</body>");

@@ -361,18 +361,20 @@ public class XmppUtil {
 	}
 
     public static void sendMessage(XMPPConnection mXMPPConnection,String content,String touser, String fromUser) throws XMPPException {
-		Log.e("message", "谈笑风生");
         if(mXMPPConnection==null||!mXMPPConnection.isConnected()){
             throw new XMPPException();
         }
         ChatManager chatmanager = mXMPPConnection.getChatManager();
         Chat chat =chatmanager.createChat(touser + "@xmpp.test", null);
         if (chat != null) {
-            Message message = new Message();
+			long time = System.currentTimeMillis();
+			System.out.println(time);
+			Message message = new Message();
             message.setFrom(fromUser + "@xmpp.test");
             message.setTo(touser + "@xmpp.text");
             message.setBody(content);
-            message.setThread(chat.getThreadID());
+			message.setTime(time + "");
+			message.setThread(chat.getThreadID());
             message.setSubType(Const.MSG_SUBTYPE_TEXT);
             message.setType(Message.Type.chat);
             Log.e("message", message.toXML());

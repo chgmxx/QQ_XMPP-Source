@@ -60,10 +60,12 @@ public class MsgListener implements MessageListener{
 			if (TextUtils.isEmpty(msgContent))
 				return;
 
-			String msgtype=message.getType().toString();//消息类型
+			String chatType = message.getType().toString();//聊天类型
+            String msgType = message.getSubType().toString(); //MSG类型
 			String to = message.getTo();
 			String from = message.getFrom();
-            String msgtime= "";//消息时间
+			String subType = message.getSubType();
+            String msgTime= message.getTime();//消息时间
 
 			String[] strFrom = from.split("@");
 			String[] strTo = to.split("@");
@@ -72,15 +74,15 @@ public class MsgListener implements MessageListener{
 
 			Msg msg=new Msg();
 
-			switch(msgtype) {
-				case Const.MSG_TYPE_CHAT:
+			switch(msgType) {
+				case Const.MSG_TYPE_TEXT:
 					msg.setToUser(strTo[0]);
 					msg.setFromUser(strFrom[0]);
 					msg.setIsComing(0);
 					msg.setContent(msgContent);
-					msg.setDate(msgtime);
+					msg.setDate(msgTime);
 					msg.setIsReaded("0");
-					msg.setType(msgtype);
+					msg.setType(chatType);
 					msgDao.insert(msg);
 					sendNewMsg(msg);
                     showNotice(strFrom[0] + ':' + msgContent, strFrom[0]);

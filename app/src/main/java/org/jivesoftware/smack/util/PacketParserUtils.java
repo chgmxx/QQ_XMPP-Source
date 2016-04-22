@@ -20,6 +20,8 @@
 
 package org.jivesoftware.smack.util;
 
+import android.util.Log;
+
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
 import java.io.ObjectInputStream;
@@ -113,6 +115,10 @@ public class PacketParserUtils {
                     }
                 }
                 else if (elementName.equals("body")) {
+                    String subType = parser.getAttributeValue("", "subtype");
+                    String time = parser.getAttributeValue("", "time");
+                    message.setSubType(subType);
+                    message.setTime(time);
                     String xmlLang = getLanguageAttribute(parser);
                     if (xmlLang == null) {
                         xmlLang = defaultLanguage;
