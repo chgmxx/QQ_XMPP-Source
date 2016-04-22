@@ -1,5 +1,7 @@
 package com.im.fragment;
 
+import java.io.ByteArrayInputStream;
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
@@ -9,11 +11,13 @@ import org.jivesoftware.smack.RosterEntry;
 import org.jivesoftware.smack.RosterGroup;
 import org.jivesoftware.smack.XMPPConnection;
 import org.jivesoftware.smack.packet.Presence;
+import org.jivesoftware.smackx.packet.VCard;
 
 import com.im.QQApplication;
 import com.im.R;
 import com.im.activity.AddFriendActivity;
 import com.im.activity.ChatActivity;
+import com.im.activity.InfoActivity;
 import com.im.adapter.ConstactAdapter;
 import com.im.bean.Child;
 import com.im.bean.Group;
@@ -27,6 +31,7 @@ import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
+import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
@@ -46,8 +51,8 @@ public class ConstactFragment extends Fragment {
 	private TitleBarView mTitleBarView;
 	private IphoneTreeView mIphoneTreeView;
 	private ConstactAdapter mExpAdapter;
-	private List<Group> listGroup;
-	
+	private List<Group> listGroup=new ArrayList<Group>();;
+
 	private FriendsOnlineStatusReceiver friendsOnlineStatusReceiver;
 
 	@SuppressLint("HandlerLeak")
@@ -56,16 +61,17 @@ public class ConstactFragment extends Fragment {
 		public void handleMessage(Message msg) {
 			super.handleMessage(msg);
 			switch (msg.what) {
-			case 1:
-				initData();
-				for(int i = 0; i < mExpAdapter.getGroupCount(); i++){  
-					mIphoneTreeView.expandGroup(i);  
-				}  
-				break;
+				case 1:
+					initData();
+					break;
+				case 2:
+					freshData();
+					break;
+
 			}
 		}
 	};
-	
+
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,Bundle savedInstanceState) {
 		mContext = getActivity();
@@ -79,31 +85,44 @@ public class ConstactFragment extends Fragment {
 
 	private void findView() {
 		mTitleBarView=(TitleBarView) mBaseView.findViewById(R.id.title_bar);
-		mTitleBarView.setCommonTitle(View.VISIBLE, View.VISIBLE, View.GONE, View.VISIBLE);
+		mTitleBarView.setCommonTitle(View.GONE, View.VISIBLE, View.GONE, View.GONE);
 		mTitleBarView.setTitleText(R.string.constacts);//标题
-		mTitleBarView.setTitleLeft("刷新");//左按钮-刷新好友
-		mTitleBarView.setTitleRight("添加");//右按钮-添加好友
-		mTitleBarView.setBtnLeftOnclickListener(new OnClickListener() {
-			@Override
-			public void onClick(View arg0) {
-				initData();
-			}
-		});
-		mTitleBarView.setBtnRightOnclickListener(new OnClickListener() {
-			@Override
-			public void onClick(View v) {
-				Intent intent=new Intent(mContext, AddFriendActivity.class);
-				startActivity(intent);
-			}
-		});
+//		mTitleBarView.setBtnLeftOnclickListener(new OnClickListener() {
+//			@Override
+//			public void onClick(View arg0) {
+//				findFriends();
+//			}
+//		});
+//		mTitleBarView.setBtnRightOnclickListener(new OnClickListener() {
+//			@Override
+//			public void onClick(View v) {
+//				Intent intent=new Intent(mContext, AddFriendActivity.class);
+//				startActivity(intent);
+//			}
+//		});
 		mIphoneTreeView = (IphoneTreeView) mBaseView.findViewById(R.id.iphone_tree_view);
 		mIphoneTreeView.setHeaderView(LayoutInflater.from(mContext).inflate(R.layout.fragment_constact_head_view, mIphoneTreeView, false));
 		mIphoneTreeView.setGroupIndicator(null);
 		mIphoneTreeView.setOnChildClickListener(new OnChildClickListener() {
 			@Override
 			public boolean onChildClick(ExpandableListView arg0, View arg1, int arg2,int arg3, long arg4) {
-				Intent intent =new Intent(mContext, ChatActivity.class);
-				intent.putExtra("from", listGroup.get(arg2).getChildList().get(arg3).getUsername());
+				Intent intent =new Intent(mContext, InfoActivity.class);
+				if(listGroup.get(arg2).getChildList().get(arg3).getUsername()!=null)
+					intent.putExtra("name",listGroup.get(arg2).getChildList().get(arg3).getUsername());
+				if(listGroup.get(arg2).getChildList().get(arg3).getGroup()!=null)
+					intent.putExtra("group",listGroup.get(arg2).getChildList().get(arg3).getGroup());
+				if(listGroup.get(arg2).getChildList().get(arg3).getVcard().getAvatar()!=null)
+					intent.putExtra("icon", BitmapFactory.decodeStream(new ByteArrayInputStream(listGroup.get(arg2).getChildList().get(arg3).getVcard().getAvatar())));
+				if(listGroup.get(arg2).getChildList().get(arg3).getVcard().getField("TITLE")!=null)
+					intent.putExtra("title", listGroup.get(arg2).getChildList().get(arg3).getVcard().getField("TITLE"));
+				if(listGroup.get(arg2).getChildList().get(arg3).getVcard().getField("NOTE")!=null)
+					intent.putExtra("note", listGroup.get(arg2).getChildList().get(arg3).getVcard().getField("NOTE"));
+				if(listGroup.get(arg2).getChildList().get(arg3).getVcard().getField("EMAIL")!=null)
+					intent.putExtra("email", listGroup.get(arg2).getChildList().get(arg3).getVcard().getField("EMAIL"));
+				if(listGroup.get(arg2).getChildList().get(arg3).getVcard().getField("ADR")!=null)
+					intent.putExtra("adr", listGroup.get(arg2).getChildList().get(arg3).getVcard().getField("ADR"));
+				if(listGroup.get(arg2).getChildList().get(arg3).getVcard().getField("TEL")!=null)
+					intent.putExtra("tel", listGroup.get(arg2).getChildList().get(arg3).getVcard().getField("TEL"));
 				startActivity(intent);
 				return true;
 			}
@@ -119,7 +138,7 @@ public class ConstactFragment extends Fragment {
 			initData();
 		}
 	}
-	
+
 	/**
 	 * 加载数据
 	 */
@@ -131,20 +150,27 @@ public class ConstactFragment extends Fragment {
 			return;
 		}
 		mExpAdapter = new ConstactAdapter(mContext, listGroup, mIphoneTreeView);
-		if(mExpAdapter == null) {
-			Log.e("mExpAdapter", "null");
-		}
 		mIphoneTreeView.setAdapter(mExpAdapter);
 	}
-	
+
+	void freshData(){
+		findFriends();
+		if(listGroup.size()<=0){
+			mIphoneTreeView.setVisibility(View.GONE);
+			ToastUtil.showShortToast(mContext, "暂无好友");
+			return;
+		}
+		mExpAdapter.notifyDataSetChanged();
+	}
+
 	@Override
 	public void onResume() {
 		super.onResume();
 	}
-	
+
 	public void findFriends() {
 		try {
-			listGroup=new ArrayList<Group>();
+			listGroup.clear();
 			XMPPConnection conn = QQApplication.xmppConnection;
 			Roster roster = conn.getRoster();
 			Collection<RosterGroup> groups = roster.getGroups();
@@ -158,16 +184,22 @@ public class ConstactFragment extends Fragment {
 					if(entry.getType().name().equals("both")){
 						Presence presence = roster.getPresence(entry.getUser());
 						Child child=new Child();
+						VCard vcard=new VCard();
+						vcard.load(conn,entry.getUser());
+						child.setVcard(vcard);
 						child.setUsername(entry.getUser().split("@")[0]);
-						if(!TextUtils.isEmpty(presence.getStatus())){
-							child.setMood(presence.getStatus());
-						}else{
-							child.setMood("QQXMPP版...");
-						}
-						if(presence.isAvailable()){//在线
+						child.setGroup(mygroup.getGroupName());
+						if(presence.isAvailable()){
+							if(!TextUtils.isEmpty(presence.getStatus())) {
+								child.setMood("[" + presence.getStatus() + "]");
+							}
+							else {
+								child.setMood("[在线]");
+							}
 							child.setOnline_status("1");
 							childListOnline.add(child);
 						}else{//下线
+							child.setMood("[离开]");
 							child.setOnline_status("0");
 							childListNotOnline.add(child);
 						}
@@ -175,39 +207,39 @@ public class ConstactFragment extends Fragment {
 				}
 				childListOnline.addAll(childListNotOnline);//在线的靠前排列
 				mygroup.setChildList(childListOnline);
-				
+
 				listGroup.add(mygroup);
 			}
 			Log.e("jj", "好友数量="+listGroup.get(0).getChildList().size());
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		
+
 	}
-	
+
 	class FriendsOnlineStatusReceiver extends BroadcastReceiver{
 		@Override
 		public void onReceive(Context arg0, Intent intent) {
-			String from=intent.getStringExtra("from");
-			int status=intent.getIntExtra("status",0);
-			if(!TextUtils.isEmpty(from)){
-				if(status== 1){
-					ToastUtil.showShortToast(mContext, from+"上线了");
-				}else if(status==0){
-					ToastUtil.showShortToast(mContext, from+"下线了");
-				}
-			}
+//			String from=intent.getStringExtra("from");
+//			int status=intent.getIntExtra("status",0);
+//			if(!TextUtils.isEmpty(from)){
+//				if(status== 1){
+//					ToastUtil.showShortToast(mContext, from+"上线了");
+//				}else if(status==0){
+//					ToastUtil.showShortToast(mContext, from+"下线了");
+//				}
+//			}
 			new Handler().postDelayed(new Runnable() {
 				@Override
 				public void run() {
-					mHandler.sendEmptyMessage(1);
-		
+					mHandler.sendEmptyMessage(2);
+
 				}
 			}, 1000);
 		}
-		
+
 	}
-	
+
 	@Override
 	public void onDestroy() {
 		super.onDestroy();

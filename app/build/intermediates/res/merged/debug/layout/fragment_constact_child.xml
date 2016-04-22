@@ -3,48 +3,54 @@
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
     android:paddingBottom="6.0dip"
-    android:paddingTop="6.0dip" 
+    android:paddingTop="6.0dip"
     android:background="@drawable/list_item_selector">
 
-    <com.im.view.CircleImageView
-        android:id="@+id/icon"
+    <ImageView
+        android:id="@+id/icon_child_item"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_alignParentLeft="true"
         android:layout_centerVertical="true"
         android:layout_marginLeft="10.0dip"
         android:src="@drawable/ic_launcher"
-        android:contentDescription="@string/app_name" 
+        android:contentDescription="@string/app_name"
         android:scaleType="centerCrop"/>
 
+    <!--<Button-->
+    <!--android:id="@+id/btn_child_item"-->
+    <!--android:layout_width="20dp"-->
+    <!--android:layout_height="20dp"-->
+    <!--android:layout_alignParentRight="true"-->
+    <!--android:layout_marginRight="18.0dp"-->
+    <!--android:layout_centerVertical="true"-->
+    <!--android:background="@drawable/little_star_gray" />-->
     <TextView
-        android:id="@+id/contact_list_item_name"
-        android:layout_width="fill_parent"
-        android:layout_height="25.0dip"
-        android:layout_marginLeft="10.0dip"
-        android:layout_marginRight="18.0dip"
-        android:layout_toRightOf="@id/icon"
-        android:drawableRight="@drawable/terminal_icon_ios"
+        android:id="@+id/info_child_item"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginLeft="10.0dp"
+        android:layout_marginRight="10.0dp"
+        android:layout_toRightOf="@id/icon_child_item"
         android:ellipsize="end"
-        android:gravity="left|center"
+        android:gravity="center|left"
         android:includeFontPadding="false"
-        android:padding="0.0dip"
+        android:padding="0.0dp"
         android:singleLine="true"
+        android:textColor="@color/black"
         android:textSize="16.0sp" />
-
     <TextView
-        android:id="@+id/cpntact_list_item_state"
-        android:layout_width="fill_parent"
-        android:layout_height="25.0dip"
-        android:layout_alignParentRight="true"
-        android:layout_below="@id/contact_list_item_name"
-        android:layout_marginLeft="10.0dip"
-        android:layout_marginRight="18.0dip"
-        android:layout_toRightOf="@id/icon"
+        android:id="@+id/status_child_item"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginLeft="10.0dp"
+        android:layout_marginRight="10.0dp"
+        android:layout_below="@id/info_child_item"
+        android:layout_toRightOf="@id/icon_child_item"
         android:ellipsize="end"
-        android:gravity="left|center"
+        android:gravity="center|left"
         android:includeFontPadding="false"
-        android:padding="0.0dip"
+        android:padding="0.0dp"
         android:singleLine="true"
         android:textColor="@color/gray"
         android:textSize="12.0sp" />

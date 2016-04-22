@@ -26,8 +26,7 @@
 
     <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="android.permission.FLASHLIGHT" />
-
-    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
 
     <application
         android:name=".QQApplication"
@@ -57,7 +56,7 @@
         <activity android:name=".activity.SignActivity" />
         <activity android:name=".activity.MsgAlertActivity" />
         <activity android:name=".activity.MsgHistroyActivity" />
-
+        <activity android:name=".activity.InfoActivity" />
         <service android:name=".service.MsfService" />
 
     </application>

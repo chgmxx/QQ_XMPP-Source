@@ -1,169 +1,173 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:2:1-65:12
+ADDED from C:\MyProgram\Android\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:2:1-64:12
 	package
-		ADDED from C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:3:5-21
-		INJECTED from C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml
+		ADDED from C:\MyProgram\Android\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:3:5-21
+		INJECTED from C:\MyProgram\Android\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml
+		INJECTED from C:\MyProgram\Android\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml
 	android:versionName
-		ADDED from C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:5:5-30
-		INJECTED from C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml
+		ADDED from C:\MyProgram\Android\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from C:\MyProgram\Android\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml
+		INJECTED from C:\MyProgram\Android\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml
 	android:versionCode
-		ADDED from C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:4:5-28
-		INJECTED from C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml
+		ADDED from C:\MyProgram\Android\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from C:\MyProgram\Android\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml
+		INJECTED from C:\MyProgram\Android\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\MyProgram\Android\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:2:11-69
 uses-sdk
-ADDED from C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:support-v4:20.0.0] C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\AndroidManifest.xml:16:5-42
+ADDED from C:\MyProgram\Android\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-v4:20.0.0] C:\MyProgram\Android\AndroidStudioProjects\QQ_XMPP-Source\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\AndroidManifest.xml:16:5-42
 	android:targetSdkVersion
-		ADDED from C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:9:9-38
-		INJECTED from C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml
+		ADDED from C:\MyProgram\Android\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:9:9-38
+		INJECTED from C:\MyProgram\Android\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml
+		INJECTED from C:\MyProgram\Android\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		ADDED from C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:8:9-35
-		INJECTED from C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml
+		ADDED from C:\MyProgram\Android\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:8:9-35
+		INJECTED from C:\MyProgram\Android\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml
+		INJECTED from C:\MyProgram\Android\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
-ADDED from C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:11:5-84
+ADDED from C:\MyProgram\Android\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:11:5-84
 	android:name
-		ADDED from C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:11:22-81
+		ADDED from C:\MyProgram\Android\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:11:22-81
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:12:5-80
+ADDED from C:\MyProgram\Android\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:12:5-80
 	android:name
-		ADDED from C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:12:22-77
+		ADDED from C:\MyProgram\Android\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:12:22-77
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:13:5-81
+ADDED from C:\MyProgram\Android\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:13:5-81
 	android:name
-		ADDED from C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:13:22-78
+		ADDED from C:\MyProgram\Android\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:13:22-78
 uses-permission#android.permission.READ_CALL_LOG
-ADDED from C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:14:5-72
+ADDED from C:\MyProgram\Android\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:14:5-72
 	android:name
-		ADDED from C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:14:22-69
+		ADDED from C:\MyProgram\Android\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:14:22-69
 uses-permission#android.permission.READ_CONTACTS
-ADDED from C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:15:5-72
+ADDED from C:\MyProgram\Android\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:15:5-72
 	android:name
-		ADDED from C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:15:22-69
+		ADDED from C:\MyProgram\Android\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:15:22-69
 uses-permission#android.permission.CALL_PHONE
-ADDED from C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:16:5-69
+ADDED from C:\MyProgram\Android\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:16:5-69
 	android:name
-		ADDED from C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:16:22-66
+		ADDED from C:\MyProgram\Android\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:16:22-66
 uses-permission#android.permission.WAKE_LOCK
-ADDED from C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:17:5-68
+ADDED from C:\MyProgram\Android\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:17:5-68
 	android:name
-		ADDED from C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:17:22-65
+		ADDED from C:\MyProgram\Android\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:17:22-65
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:18:5-79
+ADDED from C:\MyProgram\Android\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:18:5-79
 	android:name
-		ADDED from C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:18:22-76
+		ADDED from C:\MyProgram\Android\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:18:22-76
 uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:19:5-76
+ADDED from C:\MyProgram\Android\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:19:5-76
 	android:name
-		ADDED from C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:19:22-73
+		ADDED from C:\MyProgram\Android\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:19:22-73
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:20:5-67
+ADDED from C:\MyProgram\Android\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:20:5-67
 	android:name
-		ADDED from C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:20:22-64
+		ADDED from C:\MyProgram\Android\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:20:22-64
 uses-permission#android.permission.CHANGE_WIFI_STATE
-ADDED from C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:21:5-76
+ADDED from C:\MyProgram\Android\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:21:5-76
 	android:name
-		ADDED from C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:21:22-73
+		ADDED from C:\MyProgram\Android\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:21:22-73
 uses-permission#android.permission.CAMERA
-ADDED from C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:22:5-65
+ADDED from C:\MyProgram\Android\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:22:5-65
 	android:name
-		ADDED from C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:22:22-62
+		ADDED from C:\MyProgram\Android\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:22:22-62
 uses-feature#android.hardware.camera
-ADDED from C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:24:5-60
+ADDED from C:\MyProgram\Android\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:24:5-60
 	android:name
-		ADDED from C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:24:19-57
+		ADDED from C:\MyProgram\Android\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:24:19-57
 uses-feature#android.hardware.camera.autofocus
-ADDED from C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:25:5-70
+ADDED from C:\MyProgram\Android\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:25:5-70
 	android:name
-		ADDED from C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:25:19-67
+		ADDED from C:\MyProgram\Android\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:25:19-67
 uses-permission#android.permission.VIBRATE
-ADDED from C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:27:5-66
+ADDED from C:\MyProgram\Android\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:27:5-66
 	android:name
-		ADDED from C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:27:22-63
+		ADDED from C:\MyProgram\Android\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:27:22-63
 uses-permission#android.permission.FLASHLIGHT
-ADDED from C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:28:5-69
+ADDED from C:\MyProgram\Android\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:28:5-69
 	android:name
-		ADDED from C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:28:22-66
-android:uses-permission#android.permission.READ_PHONE_STATE
-ADDED from C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:30:5-83
+		ADDED from C:\MyProgram\Android\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:28:22-66
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\MyProgram\Android\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:29:5-75
 	android:name
-		ADDED from C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:30:30-80
+		ADDED from C:\MyProgram\Android\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:29:22-72
 application
-ADDED from C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:32:5-63:19
-MERGED from [com.android.support:support-v4:20.0.0] C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\AndroidManifest.xml:17:5-19
+ADDED from C:\MyProgram\Android\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:31:5-62:19
+MERGED from [com.android.support:support-v4:20.0.0] C:\MyProgram\Android\AndroidStudioProjects\QQ_XMPP-Source\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\AndroidManifest.xml:17:5-19
 	android:label
-		ADDED from C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:36:9-41
+		ADDED from C:\MyProgram\Android\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:35:9-41
 	android:allowBackup
-		ADDED from C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:34:9-35
+		ADDED from C:\MyProgram\Android\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:33:9-35
 	android:icon
-		ADDED from C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:35:9-45
+		ADDED from C:\MyProgram\Android\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:34:9-45
 	android:theme
-		ADDED from C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:37:9-68
+		ADDED from C:\MyProgram\Android\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:36:9-68
 	android:name
-		ADDED from C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:33:9-38
+		ADDED from C:\MyProgram\Android\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:32:9-38
 activity#com.im.activity.WelcomeActivity
-ADDED from C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:38:9-46:20
+ADDED from C:\MyProgram\Android\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:37:9-45:20
 	android:label
-		ADDED from C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:40:13-45
+		ADDED from C:\MyProgram\Android\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:39:13-45
 	android:name
-		ADDED from C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:39:13-53
+		ADDED from C:\MyProgram\Android\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:38:13-53
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:41:13-45:29
+ADDED from C:\MyProgram\Android\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:40:13-44:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:42:17-69
+ADDED from C:\MyProgram\Android\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:41:17-69
 	android:name
-		ADDED from C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:42:25-66
+		ADDED from C:\MyProgram\Android\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:41:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:44:17-77
+ADDED from C:\MyProgram\Android\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:43:17-77
 	android:name
-		ADDED from C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:44:27-74
+		ADDED from C:\MyProgram\Android\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:43:27-74
 activity#com.im.activity.LoginActivity
-ADDED from C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:47:9-49:47
+ADDED from C:\MyProgram\Android\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:46:9-48:47
 	android:launchMode
-		ADDED from C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:49:13-44
+		ADDED from C:\MyProgram\Android\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:48:13-44
 	android:name
-		ADDED from C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:48:13-51
+		ADDED from C:\MyProgram\Android\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:47:13-51
 activity#com.im.MainActivity
-ADDED from C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:50:9-52:55
+ADDED from C:\MyProgram\Android\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:49:9-51:55
 	android:windowSoftInputMode
-		ADDED from C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:52:13-52
+		ADDED from C:\MyProgram\Android\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:51:13-52
 	android:name
-		ADDED from C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:51:13-41
+		ADDED from C:\MyProgram\Android\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:50:13-41
 activity#com.im.activity.RegisterActivity
-ADDED from C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:53:9-63
+ADDED from C:\MyProgram\Android\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:52:9-63
 	android:name
-		ADDED from C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:53:19-60
+		ADDED from C:\MyProgram\Android\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:52:19-60
 activity#com.im.activity.AddFriendActivity
-ADDED from C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:54:9-64
+ADDED from C:\MyProgram\Android\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:53:9-64
 	android:name
-		ADDED from C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:54:19-61
+		ADDED from C:\MyProgram\Android\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:53:19-61
 activity#com.im.activity.ImgPageActivity
-ADDED from C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:55:9-62
+ADDED from C:\MyProgram\Android\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:54:9-62
 	android:name
-		ADDED from C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:55:19-59
+		ADDED from C:\MyProgram\Android\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:54:19-59
 activity#com.im.activity.ChatActivity
-ADDED from C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:56:9-59
+ADDED from C:\MyProgram\Android\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:55:9-59
 	android:name
-		ADDED from C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:56:19-56
+		ADDED from C:\MyProgram\Android\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:55:19-56
 activity#com.im.activity.SignActivity
-ADDED from C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:57:9-59
+ADDED from C:\MyProgram\Android\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:56:9-59
 	android:name
-		ADDED from C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:57:19-56
+		ADDED from C:\MyProgram\Android\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:56:19-56
 activity#com.im.activity.MsgAlertActivity
-ADDED from C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:58:9-63
+ADDED from C:\MyProgram\Android\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:57:9-63
 	android:name
-		ADDED from C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:58:19-60
+		ADDED from C:\MyProgram\Android\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:57:19-60
 activity#com.im.activity.MsgHistroyActivity
-ADDED from C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:59:9-65
+ADDED from C:\MyProgram\Android\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:58:9-65
 	android:name
-		ADDED from C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:59:19-62
+		ADDED from C:\MyProgram\Android\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:58:19-62
+activity#com.im.activity.InfoActivity
+ADDED from C:\MyProgram\Android\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:59:9-59
+	android:name
+		ADDED from C:\MyProgram\Android\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:59:19-56
 service#com.im.service.MsfService
-ADDED from C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:61:9-55
+ADDED from C:\MyProgram\Android\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:60:9-55
 	android:name
-		ADDED from C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:61:18-52
+		ADDED from C:\MyProgram\Android\AndroidStudioProjects\QQ_XMPP-Source\app\src\main\AndroidManifest.xml:60:18-52

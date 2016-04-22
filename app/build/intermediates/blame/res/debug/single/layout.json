@@ -1,242 +1,246 @@
 [
     {
-        "merged": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_setting_msg_histroy.xml",
-        "source": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\activity_setting_msg_histroy.xml"
+        "merged": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\face_gridview.xml",
+        "source": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\face_gridview.xml"
     },
     {
-        "merged": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_loading_view.xml",
-        "source": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\common_loading_view.xml"
+        "merged": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_constact_head_view.xml",
+        "source": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\fragment_constact_head_view.xml"
     },
     {
-        "merged": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_scan.xml",
-        "source": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\dialog_scan.xml"
+        "merged": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_news.xml",
+        "source": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\fragment_news.xml"
     },
     {
-        "merged": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\app_exit.xml",
-        "source": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\app_exit.xml"
+        "merged": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_face_container.xml",
+        "source": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\chat_face_container.xml"
     },
     {
-        "merged": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
-        "source": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\activity_login.xml"
+        "merged": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\water_camera_page2.xml",
+        "source": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\water_camera_page2.xml"
     },
     {
-        "merged": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_news_pop.xml",
-        "source": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\fragment_news_pop.xml"
+        "merged": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dropdown_lv_head.xml",
+        "source": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\dropdown_lv_head.xml"
     },
     {
-        "merged": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_news_waterphoto_save.xml",
-        "source": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\fragment_news_waterphoto_save.xml"
+        "merged": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_qq_constact.xml",
+        "source": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\activity_qq_constact.xml"
     },
     {
-        "merged": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_register_phone.xml",
-        "source": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\activity_register_phone.xml"
+        "merged": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_phone_constacts_item.xml",
+        "source": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\fragment_phone_constacts_item.xml"
     },
     {
-        "merged": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_constact_child.xml",
-        "source": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\fragment_constact_child.xml"
+        "merged": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_news_pop.xml",
+        "source": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\fragment_news_pop.xml"
     },
     {
-        "merged": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_img_page.xml",
-        "source": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\activity_img_page.xml"
+        "merged": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
+        "source": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_url_textview.xml",
-        "source": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\common_url_textview.xml"
+        "merged": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\water_camera_page1.xml",
+        "source": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\water_camera_page1.xml"
     },
     {
-        "merged": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_search_xl.xml",
-        "source": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\common_search_xl.xml"
+        "merged": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_lv_item.xml",
+        "source": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\chat_lv_item.xml"
     },
     {
-        "merged": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_search_xxl.xml",
-        "source": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\common_search_xxl.xml"
+        "merged": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_img_page.xml",
+        "source": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\activity_img_page.xml"
     },
     {
-        "merged": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\refresh_footer.xml",
-        "source": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\refresh_footer.xml"
+        "merged": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main_chat.xml",
+        "source": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\main_chat.xml"
     },
     {
-        "merged": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\face_gridview.xml",
-        "source": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\face_gridview.xml"
+        "merged": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_title_bar.xml",
+        "source": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\common_title_bar.xml"
     },
     {
-        "merged": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\refresh_head.xml",
-        "source": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\refresh_head.xml"
+        "merged": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_dynamic.xml",
+        "source": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\fragment_dynamic.xml"
     },
     {
-        "merged": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dropdown_lv_head.xml",
-        "source": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\dropdown_lv_head.xml"
+        "merged": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\refresh_footer.xml",
+        "source": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\refresh_footer.xml"
     },
     {
-        "merged": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_dynamic.xml",
-        "source": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\fragment_dynamic.xml"
+        "merged": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\app_exit.xml",
+        "source": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\app_exit.xml"
     },
     {
-        "merged": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
-        "source": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_constact_group.xml",
+        "source": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\fragment_constact_group.xml"
     },
     {
-        "merged": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_news.xml",
-        "source": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\fragment_news.xml"
+        "merged": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\face_image.xml",
+        "source": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\face_image.xml"
     },
     {
-        "merged": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_welcome.xml",
-        "source": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\activity_welcome.xml"
+        "merged": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_qq_friend.xml",
+        "source": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\fragment_qq_friend.xml"
     },
     {
-        "merged": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pop_loginout.xml",
-        "source": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\pop_loginout.xml"
+        "merged": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_constact_father.xml",
+        "source": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\fragment_constact_father.xml"
     },
     {
-        "merged": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\water_camera_page4.xml",
-        "source": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\water_camera_page4.xml"
+        "merged": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_constact.xml",
+        "source": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\fragment_constact.xml"
     },
     {
-        "merged": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_add_container.xml",
-        "source": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\chat_add_container.xml"
+        "merged": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_scan.xml",
+        "source": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\dialog_scan.xml"
     },
     {
-        "merged": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_constact_father.xml",
-        "source": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\fragment_constact_father.xml"
+        "merged": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_register_result.xml",
+        "source": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\activity_register_result.xml"
     },
     {
-        "merged": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\face_image.xml",
-        "source": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\face_image.xml"
+        "merged": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_news_camera.xml",
+        "source": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\fragment_news_camera.xml"
     },
     {
-        "merged": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_constact.xml",
-        "source": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\fragment_constact.xml"
+        "merged": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_search_x.xml",
+        "source": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\common_search_x.xml"
     },
     {
-        "merged": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_news_code_scan.xml",
-        "source": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\fragment_news_code_scan.xml"
+        "merged": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_qq_constact.xml",
+        "source": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\fragment_qq_constact.xml"
     },
     {
-        "merged": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_search.xml",
-        "source": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\activity_search.xml"
+        "merged": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_register_phone.xml",
+        "source": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\activity_register_phone.xml"
     },
     {
-        "merged": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\water_camera_page1.xml",
-        "source": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\water_camera_page1.xml"
+        "merged": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pc_connect_wifi.xml",
+        "source": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\pc_connect_wifi.xml"
     },
     {
-        "merged": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_constact_group.xml",
-        "source": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\fragment_constact_group.xml"
+        "merged": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pop_edit.xml",
+        "source": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\pop_edit.xml"
     },
     {
-        "merged": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_custom_loding_dialog_layout.xml",
-        "source": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\activity_custom_loding_dialog_layout.xml"
+        "merged": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_setting_msg_histroy.xml",
+        "source": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\activity_setting_msg_histroy.xml"
     },
     {
-        "merged": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_news_qq_item.xml",
-        "source": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\fragment_news_qq_item.xml"
+        "merged": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_loading_view.xml",
+        "source": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\common_loading_view.xml"
     },
     {
-        "merged": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\water_camera_page3.xml",
-        "source": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\water_camera_page3.xml"
+        "merged": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pop_loginout.xml",
+        "source": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\pop_loginout.xml"
     },
     {
-        "merged": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_sign.xml",
-        "source": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\activity_sign.xml"
+        "merged": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dot_image.xml",
+        "source": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\dot_image.xml"
     },
     {
-        "merged": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_register_userinfo.xml",
-        "source": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\activity_register_userinfo.xml"
+        "merged": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_register_userinfo.xml",
+        "source": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\activity_register_userinfo.xml"
     },
     {
-        "merged": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_qq_friend.xml",
-        "source": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\fragment_qq_friend.xml"
+        "merged": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_news_item.xml",
+        "source": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\fragment_news_item.xml"
     },
     {
-        "merged": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_title_bar.xml",
-        "source": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\common_title_bar.xml"
+        "merged": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_news_qq_item.xml",
+        "source": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\fragment_news_qq_item.xml"
     },
     {
-        "merged": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_phone_constacts_item.xml",
-        "source": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\fragment_phone_constacts_item.xml"
+        "merged": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_url_textview.xml",
+        "source": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\common_url_textview.xml"
     },
     {
-        "merged": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_news_father.xml",
-        "source": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\fragment_news_father.xml"
+        "merged": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_setting_msg_alert.xml",
+        "source": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\activity_setting_msg_alert.xml"
     },
     {
-        "merged": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dot_image.xml",
-        "source": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\dot_image.xml"
+        "merged": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_search_xl.xml",
+        "source": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\common_search_xl.xml"
     },
     {
-        "merged": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_register_result.xml",
-        "source": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\activity_register_result.xml"
+        "merged": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_news_code_scan.xml",
+        "source": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\fragment_news_code_scan.xml"
     },
     {
-        "merged": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_phone_constact.xml",
-        "source": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\fragment_phone_constact.xml"
+        "merged": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_constact_child.xml",
+        "source": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\fragment_constact_child.xml"
     },
     {
-        "merged": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_news_item.xml",
-        "source": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\fragment_news_item.xml"
+        "merged": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_sign.xml",
+        "source": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\activity_sign.xml"
     },
     {
-        "merged": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_qq_constact.xml",
-        "source": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\fragment_qq_constact.xml"
+        "merged": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_custom_loding_dialog_layout.xml",
+        "source": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\activity_custom_loding_dialog_layout.xml"
     },
     {
-        "merged": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\water_camera_page2.xml",
-        "source": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\water_camera_page2.xml"
+        "merged": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\water_camera_page4.xml",
+        "source": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\water_camera_page4.xml"
     },
     {
-        "merged": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main_chat.xml",
-        "source": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\main_chat.xml"
+        "merged": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_search_xxl.xml",
+        "source": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\common_search_xxl.xml"
     },
     {
-        "merged": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_constact_head_view.xml",
-        "source": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\fragment_constact_head_view.xml"
+        "merged": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_search_l.xml",
+        "source": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\common_search_l.xml"
     },
     {
-        "merged": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_news_camera.xml",
-        "source": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\fragment_news_camera.xml"
+        "merged": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_welcome.xml",
+        "source": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\activity_welcome.xml"
     },
     {
-        "merged": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\water_camera_page5.xml",
-        "source": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\water_camera_page5.xml"
+        "merged": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\water_camera_page5.xml",
+        "source": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\water_camera_page5.xml"
     },
     {
-        "merged": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_setting_msg_alert.xml",
-        "source": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\activity_setting_msg_alert.xml"
+        "merged": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_news_waterphoto_save.xml",
+        "source": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\fragment_news_waterphoto_save.xml"
     },
     {
-        "merged": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_news_call.xml",
-        "source": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\fragment_news_call.xml"
+        "merged": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_mine.xml",
+        "source": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\fragment_mine.xml"
     },
     {
-        "merged": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_search_l.xml",
-        "source": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\common_search_l.xml"
+        "merged": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_add_container.xml",
+        "source": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\chat_add_container.xml"
     },
     {
-        "merged": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_lv_item.xml",
-        "source": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\chat_lv_item.xml"
+        "merged": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_news_father.xml",
+        "source": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\fragment_news_father.xml"
     },
     {
-        "merged": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_face_container.xml",
-        "source": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\chat_face_container.xml"
+        "merged": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_search.xml",
+        "source": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\activity_search.xml"
     },
     {
-        "merged": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_mine.xml",
-        "source": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\fragment_mine.xml"
+        "merged": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_phone_constact.xml",
+        "source": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\fragment_phone_constact.xml"
     },
     {
-        "merged": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_qq_constact.xml",
-        "source": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\activity_qq_constact.xml"
+        "merged": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_info.xml",
+        "source": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\activity_info.xml"
     },
     {
-        "merged": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_search_x.xml",
-        "source": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\common_search_x.xml"
+        "merged": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_news_call.xml",
+        "source": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\fragment_news_call.xml"
     },
     {
-        "merged": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pc_connect_wifi.xml",
-        "source": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\pc_connect_wifi.xml"
+        "merged": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\refresh_head.xml",
+        "source": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\refresh_head.xml"
     },
     {
-        "merged": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pop_edit.xml",
-        "source": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\pop_edit.xml"
+        "merged": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\water_camera_page3.xml",
+        "source": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\water_camera_page3.xml"
+    },
+    {
+        "merged": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\layout\\activity_main.xml"
     }
 ]

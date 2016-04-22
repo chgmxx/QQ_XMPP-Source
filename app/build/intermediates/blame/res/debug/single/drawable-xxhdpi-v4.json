@@ -1,22 +1,22 @@
 [
     {
-        "merged": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_sync_black_24dp.png",
-        "source": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\drawable-xxhdpi\\ic_sync_black_24dp.png"
+        "merged": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_info_black_24dp.png",
+        "source": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\drawable-xxhdpi\\ic_info_black_24dp.png"
     },
     {
-        "merged": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\bg_launcher.png",
-        "source": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\drawable-xxhdpi\\bg_launcher.png"
+        "merged": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_notifications_black_24dp.png",
+        "source": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\drawable-xxhdpi\\ic_notifications_black_24dp.png"
     },
     {
-        "merged": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_notifications_black_24dp.png",
-        "source": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\drawable-xxhdpi\\ic_notifications_black_24dp.png"
+        "merged": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_sync_black_24dp.png",
+        "source": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\drawable-xxhdpi\\ic_sync_black_24dp.png"
     },
     {
-        "merged": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_info_black_24dp.png",
-        "source": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\drawable-xxhdpi\\ic_info_black_24dp.png"
+        "merged": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_launcher.png",
+        "source": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_launcher.png",
-        "source": "C:\\Users\\Unicorn\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
+        "merged": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\bg_launcher.png",
+        "source": "C:\\MyProgram\\Android\\AndroidStudioProjects\\QQ_XMPP-Source\\app\\src\\main\\res\\drawable-xxhdpi\\bg_launcher.png"
     }
 ]

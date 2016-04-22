@@ -1,5 +1,6 @@
 package com.im.adapter;
 
+import java.io.ByteArrayInputStream;
 import java.util.HashMap;
 import java.util.List;
 
@@ -12,6 +13,7 @@ import com.im.view.IphoneTreeView.IphoneTreeHeaderAdapter;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
+import android.graphics.BitmapFactory;
 import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -36,6 +38,10 @@ public class ConstactAdapter extends BaseExpandableListAdapter implements
 		groupStatusMap = new HashMap<Integer, Integer>();
 	}
 
+	public void setGroupList(List<Group> groupList){
+		this.groupList = groupList;
+	}
+
 	public Child getChild(int groupPosition, int childPosition) {
 		return groupList.get(groupPosition).getChildList().get(childPosition);
 	}
@@ -52,7 +58,7 @@ public class ConstactAdapter extends BaseExpandableListAdapter implements
 	public int getChildrenCount(int groupPosition) {
 		return groupList.get(groupPosition).getChildList().size();
 	}
-	
+
 	/**
 	 * 分组中的在线人数
 	 * @param groupPosition
@@ -89,7 +95,7 @@ public class ConstactAdapter extends BaseExpandableListAdapter implements
 	public boolean hasStableIds() {
 		return true;
 	}
-	
+
 
 	/**
 	 * Child
@@ -100,17 +106,22 @@ public class ConstactAdapter extends BaseExpandableListAdapter implements
 		if (convertView == null) {
 			convertView = LayoutInflater.from(mContext).inflate(R.layout.fragment_constact_child, null);
 			holder = new ChildHolder();
-			holder.nameView = (TextView) convertView.findViewById(R.id.contact_list_item_name);//昵称
-			holder.feelView = (TextView) convertView.findViewById(R.id.cpntact_list_item_state);//心情
-			holder.iconView = (CircleImageView) convertView.findViewById(R.id.icon);//头像
+			holder.nameView = (TextView) convertView.findViewById(R.id.info_child_item);//昵称
+			holder.feelView = (TextView) convertView.findViewById(R.id.status_child_item);//心情
+			holder.iconView = (ImageView) convertView.findViewById(R.id.icon_child_item);//头像
 			convertView.setTag(holder);
 		} else {
 			holder = (ChildHolder) convertView.getTag();
 		}
 		Child child=getChild(groupPosition, childPosition);
-		
+
 		if(!TextUtils.isEmpty(child.getOnline_status())&&child.getOnline_status().equals("1")){
-			holder.iconView.setImageResource(R.drawable.ic_launcher);
+			if(child.getVcard().getAvatar()!=null)
+				holder.iconView.setImageBitmap(BitmapFactory.decodeStream(new ByteArrayInputStream(child.getVcard().getAvatar())));
+			else {
+				holder.iconView.setImageResource(R.drawable.icon);
+			}
+
 		}else{
 			holder.iconView.setImageResource(R.drawable.h001);
 		}
@@ -189,8 +200,8 @@ public class ConstactAdapter extends BaseExpandableListAdapter implements
 	class ChildHolder {
 		TextView nameView;
 		TextView feelView;
-		CircleImageView iconView;
+		ImageView iconView;
 	}
-	
+
 
 }

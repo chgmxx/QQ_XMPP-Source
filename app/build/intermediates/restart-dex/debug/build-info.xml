@@ -1,80 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
     abi="x86_64,x86"
-    api-level="22"
-    density="xhdpi"
+    api-level="23"
+    density="280dpi"
     format="7"
-    timestamp="23746472845628"
-    verifier="COMPATIBLE" >
+    timestamp="187878958367506" >
 
     <task
         name="javac"
-        duration="8694" />
+        duration="25023" />
     <task
         name="instant-run-dex"
-        duration="1440" />
+        duration="0" />
     <task
         name="instant-run-transform"
-        duration="49" />
+        duration="14601" />
     <task
         name="verifier"
-        duration="7" />
+        duration="5980" />
 
     <artifact
-        location="C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\build\intermediates\reload-dex\debug\classes.dex"
-        type="RELOAD_DEX" />
+        location="C:\MyProgram\Android\AndroidStudioProjects\QQ_XMPP-Source\app\build\outputs\apk\app-debug.apk"
+        type="MAIN" />
 
-    <build timestamp="16028030215501" >
+    <build timestamp="187878958367506" >
         <artifact
-            location="C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\build\outputs\apk\app-debug.apk"
+            location="C:\MyProgram\Android\AndroidStudioProjects\QQ_XMPP-Source\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
-    </build>
-    <build
-        timestamp="22487432160256"
-        verifier="FIELD_ADDED" >
-        <artifact
-            location="C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
-            type="DEX" />
-        <artifact
-            location="C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_4\classes.dex"
-            type="DEX" />
-        <artifact
-            location="C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_3\classes.dex"
-            type="DEX" />
-        <artifact
-            location="C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_8\classes.dex"
-            type="DEX" />
-        <artifact
-            location="C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_9\classes.dex"
-            type="DEX" />
-    </build>
-    <build
-        timestamp="23027791010449"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\build\intermediates\builds\debug\23027791010449\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        timestamp="23203845985858"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\build\intermediates\builds\debug\23203845985858\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        timestamp="23419987902732"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\build\intermediates\builds\debug\23419987902732\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        timestamp="23746472845628"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="C:\Users\Unicorn\AndroidStudioProjects\QQ_XMPP-Source\app\build\intermediates\reload-dex\debug\classes.dex"
-            type="RELOAD_DEX" />
     </build>
 
 </instant-run>
